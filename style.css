@@ -1,0 +1,12 @@
+#custom-email.unread {
+  background: rgba(255, 255, 255, 0.2);
+  color: inherit;
+  border-radius: 4px;
+  padding: 0 6px;
+  font-weight: bold;
+  border: 1px solid currentColor;
+}
+
+#custom-email.read {
+  opacity: 0.7;
+}
