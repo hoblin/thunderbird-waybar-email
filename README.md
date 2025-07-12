@@ -4,14 +4,20 @@ Unread email count for Waybar.
 
 ## Installation
 
-1. Copy the script:
+1. Clone or download the script:
+   ```bash
+   git clone https://github.com/hoblin/thunderbird-waybar-email.git
+   cd thunderbird-waybar-email
+   ```
+
+2. Copy the script:
    ```bash
    mkdir -p ~/.config/waybar/scripts
    cp email-count.sh ~/.config/waybar/scripts/
    chmod +x ~/.config/waybar/scripts/email-count.sh
    ```
 
-2. Add CSS to style.css:
+3. Add CSS to style.css:
    ```css
    #custom-email.unread {
      background: rgba(255, 255, 255, 0.2);
@@ -27,7 +33,7 @@ Unread email count for Waybar.
    }
    ```
 
-3. Add to config:
+4. Add to config:
    ```json
    "custom/email": {
      "format": "{}",
@@ -39,7 +45,7 @@ Unread email count for Waybar.
    }
    ```
 
-4. Add `"custom/email"` to modules list and restart waybar.
+5. Add `"custom/email"` to modules list and restart waybar.
 
 ## Requirements
 
