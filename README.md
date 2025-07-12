@@ -2,6 +2,8 @@
 
 Unread email count for Waybar.
 
+![Email Widget](./email-widget-combined.png)
+
 ## Installation
 
 1. Clone or download the script:
