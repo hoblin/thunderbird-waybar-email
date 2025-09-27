@@ -59,6 +59,7 @@ Unread email count for Waybar.
 
 - **No emails?** Open Thunderbird at least once
 - **No icons?** Install Nerd Fonts
+- **Wrong unread count?** Close Thunderbird, run `find ~/.thunderbird -name "*.msf" -delete`, restart Thunderbird
 
 ## License
 
